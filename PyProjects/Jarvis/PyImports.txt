@@ -1,0 +1,16 @@
+import datetime
+import os
+import webbrowser as wb
+from tkinter import *
+
+import pyaudio
+import pyjokes as pj
+import pyttsx3
+import requests
+import speech_recognition as sr
+import wikipedia
+import wolframalpha
+import pywhatkit
+
+from music import *
+from online import *
