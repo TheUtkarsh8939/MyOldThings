@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+</head>
+<body>
+    <img src="off.png" id="img" width="400px" height="657px" alt="">
+    <input type="button" value="Off" onclick="call_off()">
+    <input type="button" value="On" onclick="call_on()">
+    <script>
+        function call_on(){
+            document.getElementById('img').src="on.png";
+        }
+        function call_off(){
+            document.getElementById('img').src="off.png";
+        }
+    </script>
+</body>
+</html>
